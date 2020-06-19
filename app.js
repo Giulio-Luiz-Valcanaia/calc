@@ -23,6 +23,6 @@
           i++;
         } while (i < parseInt(meses));
 
-        document.getElementById('resultado').innerHTML = "R$ " + valorinicial;
+        document.getElementById('resultado').innerHTML = "R$ " + valorinicial.toFixed(2);
         }
       }
