@@ -16,10 +16,10 @@
         }else if (porcentagem == "") {
           var valorinicial = "Erro! Falta a porcentagem de juros!"
           document.getElementById('resultado').innerHTML = valorinicial;
-          
+
         }else{
         do {
-          var valorinicial = parseInt(valorinicial) * (parseInt(porcentagem)/100) + parseInt(valorinicial);
+          var valorinicial = parseFloat(valorinicial) * (parseFloat(porcentagem)/100) + parseFloat(valorinicial);
           i++;
         } while (i < parseInt(meses));
 
