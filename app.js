@@ -23,6 +23,6 @@
           i++;
         } while (i < parseInt(meses));
 
-        document.getElementById('resultado').innerHTML = "R$ " + valorinicial.toFixed(2);
+        document.getElementById('resultado').innerHTML = valorinicial.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
         }
       }
