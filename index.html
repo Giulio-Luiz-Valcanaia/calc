@@ -22,13 +22,13 @@
           <h1 style="font-size:1,5vw" >Calculadora de juros <br> sobre juros</h1>
 
           <h4 style="font-size:1,5vw" >Valor em R$</h4>
-          <input style="font-size:1,5vw"  type="number" id="valorinicial" name="" value="" step="0.01" placeholder="Ex.: 1200 || ou 1458.69">
+          <input style="font-size:1,5vw"  type="numeric" id="valorinicial" name="" value="" step="0.01" placeholder="Ex.: 1200 || ou 1458.69">
 
           <h4 style="font-size:1,5vw" >Quantidade de meses</h4>
-          <input  style="font-size:1,5vw" type="number" id="meses" name="" value="" placeholder="Ex.: 12">
+          <input  style="font-size:1,5vw" type="numeric" id="meses" name="" value="" placeholder="Ex.: 12">
 
           <h4 style="font-size:1,5vw" >Porcentagem de juros %</h4>
-          <input  style="font-size:1,5vw" type="number" id="porcentagem" name="" value="" step="0.01" placeholder="Ex.: 2 || ou 0.57">
+          <input  style="font-size:1,5vw" type="numeric" id="porcentagem" name="" value="" step="0.01" placeholder="Ex.: 2 || ou 0.57">
 
           <br><br><button  style="font-size:1,5vw" type="button" onclick="Calcular()" name="button">Calcular!</button>
           <h3>Resultado: <span  style="font-size:1,5vw" id='resultado'></span></h3>
